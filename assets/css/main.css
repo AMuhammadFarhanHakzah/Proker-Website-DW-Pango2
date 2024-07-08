@@ -957,7 +957,7 @@ section,
 
 .hero:before {
   content: "";
-  background: color-mix(in srgb, var(--background-color), transparent 50%);
+  background: color-mix(in srgb, var(--background-color), transparent 70%);
   position: absolute;
   inset: 0;
   z-index: 2;
@@ -1301,6 +1301,13 @@ section,
   --heading-color: #ffffff;
   padding: 80px 0;
   position: relative;
+}
+
+.events div div div img {
+  border: 6px solid color-mix(in srgb, var(--default-color), transparent 80%);
+  transition: 0.3s;
+  height: 360px;
+  width: 700px;
 }
 
 .events .slider-bg {
