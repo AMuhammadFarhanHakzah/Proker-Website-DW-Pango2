@@ -957,7 +957,7 @@ section,
 
 .hero:before {
   content: "";
-  background: color-mix(in srgb, var(--background-color), transparent 70%);
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
   position: absolute;
   inset: 0;
   z-index: 2;
@@ -970,7 +970,7 @@ section,
 
 .hero h2 {
   margin: 0;
-  font-size: 48px;
+  font-size: 72px;
   font-weight: 700;
 }
 
