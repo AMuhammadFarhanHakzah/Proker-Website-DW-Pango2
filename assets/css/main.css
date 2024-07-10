@@ -972,6 +972,7 @@ section,
   margin: 0;
   font-size: 72px;
   font-weight: 700;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
 .hero h2 span {
@@ -1015,6 +1016,9 @@ section,
 @media (max-width: 768px) {
   .hero h2 {
     font-size: 32px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
   }
 
   .hero p {
