@@ -1398,6 +1398,27 @@ section,
   background-color: var(--accent-color);
 }
 
+
+@media (max-width: 768px) {
+  .events div div div div div img {
+    height: 250px;
+    
+  }
+
+  .events h3 {
+    font-size: 13px;
+    margin-top: -40px;
+  }
+
+  .events p {
+    font-size: 13px;
+  }
+
+  .events li {
+    font-size: 13px;
+  }
+}
+
 /*--------------------------------------------------------------
 # Book A Table Section
 --------------------------------------------------------------*/
