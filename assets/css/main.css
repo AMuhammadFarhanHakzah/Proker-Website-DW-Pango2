@@ -1773,6 +1773,10 @@ section,
     max-width: 340px;
     
   }
+  #maps .container .row {
+    margin-top: -50px;
+    
+  }
 }
 
 
