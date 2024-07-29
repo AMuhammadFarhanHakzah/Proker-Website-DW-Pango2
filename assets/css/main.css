@@ -1765,3 +1765,14 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+
+
+@media (max-width: 575px) {
+  #maps .container img {
+    max-height: 340px;
+    max-width: 340px;
+  }
+}
+
+
+
