@@ -612,6 +612,9 @@ h6 {
 .footer .footer-about .logo img {
   max-height: 40px;
   margin-right: 6px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 .footer .footer-about .logo span {
@@ -1040,7 +1043,7 @@ section,
 # About Section
 --------------------------------------------------------------*/
 .about {
-  background: url("../img/about-bg.jpg") center center;
+  background: url("../img/KKNT/gallery/4.jpg") center center;
   background-size: cover;
   position: relative;
   padding: 80px 0;
