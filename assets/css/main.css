@@ -604,6 +604,9 @@ h6 {
 .footer .footer-about .logo {
   line-height: 1;
   margin-bottom: 25px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 .footer .footer-about .logo img {
@@ -617,6 +620,9 @@ h6 {
   letter-spacing: 1px;
   font-family: var(--heading-font);
   color: var(--heading-color);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 .footer .footer-about p {
@@ -688,6 +694,9 @@ h6 {
 
 .footer .footer-contact p {
   margin-bottom: 5px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 .footer .footer-newsletter .newsletter-form {
